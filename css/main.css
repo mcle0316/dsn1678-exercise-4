@@ -26,4 +26,23 @@ section {
 
 .dipper {
 	width: 200px;	
+	opacity: 0;
 }
+
+
+.js-dipper-fade {
+	-webkit-animation: dipper-fade 1s linear forwards;	
+}
+
+@-webkit-keyframes dipper-fade {
+	0% {
+	opacity: 0; 	
+	}
+	
+	100% {
+		opacity: 1;	
+	}
+	
+}
+
+
